@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/techyons_assignment/static/css/main.e6c13ad2.css",
+    "main.js": "/techyons_assignment/static/js/main.0403f4fc.js",
+    "index.html": "/techyons_assignment/index.html",
+    "main.e6c13ad2.css.map": "/techyons_assignment/static/css/main.e6c13ad2.css.map",
+    "main.0403f4fc.js.map": "/techyons_assignment/static/js/main.0403f4fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.0403f4fc.js"
+  ]
+}
