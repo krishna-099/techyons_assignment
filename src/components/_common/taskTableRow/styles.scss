@@ -1,0 +1,135 @@
+$text-color: #404040;
+.task-table-row-left {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  .task-table-row__each {
+    color: $text-color;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .task-table-row__id {
+    @extend .task-table-row__each;
+    width:50px;
+  }
+  .task-table-row__name {
+    @extend .task-table-row__each;
+    width: 250px;
+  }
+}
+
+.task-table-row-right {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    .task-table-row__each {
+      color: $text-color;
+      font-size: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-shrink: 0;
+    }
+    .task-table-team {
+      @extend .task-table-row__each;
+      width: 190px;
+    }
+    .task-table-owner {
+      @extend .task-table-row__each;
+      width: 110px;
+    }
+    .task-table-status {
+      @extend .task-table-row__each;
+      width: 110px;
+    }
+    .task-table-startDate {
+      @extend .task-table-row__each;
+      width: 130px;
+    }
+    .task-table-endDate {
+      @extend .task-table-row__each;
+      width: 130px;
+    }
+    .task-table-expStartDate {
+      @extend .task-table-row__each;
+      width: 130px;
+    }
+    .task-table-expEndDate {
+      @extend .task-table-row__each;
+      width: 130px;
+    }
+    .task-table-duration {
+      @extend .task-table-row__each;
+      width: 130px;
+    }
+    .task-table-priority {
+      @extend .task-table-row__each;
+      width: 130px;
+    }
+    .task-table-createdBy {
+      @extend .task-table-row__each;
+      width: 130px;
+    }
+    .task-table-task {
+      @extend .task-table-row__each;
+      width: 150px;
+    }
+    .task-table-subTask {
+      @extend .task-table-row__each;
+      width: 160px;
+    }
+    .task-table-completionDate {
+      @extend .task-table-row__each;
+      width: 130px;
+    }
+    .task-table-workHours {
+      @extend .task-table-row__each;
+      width: 130px;
+    }
+    .task-table-deferences {
+      @extend .task-table-row__each;
+      width: 130px;
+    }
+    .task-table-billingType {
+      @extend .task-table-row__each;
+      width: 130px;
+    }
+    .task-table-filesCount {
+      @extend .task-table-row__each;
+      width: 130px;
+    }
+    .task-table-lastEditedDate {
+      @extend .task-table-row__each;
+      width: 130px;
+    }
+    .task-table-requirementType {
+      @extend .task-table-row__each;
+      width: 130px;
+    }
+    .task-table-requirementId {
+      @extend .task-table-row__each;
+      width: 130px;
+    }
+    .task-table-associatedMembers {
+      @extend .task-table-row__each;
+      width: 150px;
+    }
+    .task-table-impactedDepartment {
+      @extend .task-table-row__each;
+      width: 130px;
+    }
+    .task-table-suntaskLastUpdated {
+      @extend .task-table-row__each;
+      width: 170px;
+    }
+    .task-table-reviewerDetails {
+      @extend .task-table-row__each;
+      width: 130px;
+    }
+    
+  }
+  .task-table-row-right::-webkit-scrollbar {
+    display: none; 
+  }

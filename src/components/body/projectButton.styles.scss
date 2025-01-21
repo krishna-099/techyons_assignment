@@ -1,0 +1,21 @@
+$bg-color: #2d446e;
+$white-color: #ffffff;
+$text-color: #404040;
+
+.project-button-container {
+  display: flex;
+  color: $white-color;
+  height: 100%;
+  background-color: $bg-color;
+  width: 130px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  box-shadow: 0px 1px 5px 0px #2D446E1A;
+  .project-button-content {
+    font-size: 16px;
+    font-weight: 700;
+  }
+}

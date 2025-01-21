@@ -1,0 +1,15 @@
+$bg-color: #2d446e;
+$white-color: #ffffff;
+
+.header-container {
+  display: flex;
+  background-color: $bg-color;
+  height: 60px;
+  width: 100%;
+  align-items: center;
+  .header-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: $white-color;
+  }
+}

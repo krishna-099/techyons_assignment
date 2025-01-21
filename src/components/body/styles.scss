@@ -1,0 +1,77 @@
+$bg-color: #2d446e;
+$white-color: #ffffff;
+$text-color: #404040;
+$dash-text-color: #8a8a8a;
+$proj-text-color: #007aff;
+.body-container {
+  display: flex;
+  padding: 25px;
+  flex: 1;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  .body-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 44px;
+    width: 100%;
+    .body-header-left {
+      display: flex;
+      align-items: center;
+      width: 296px;
+      height: 100%;
+      justify-content: space-between;
+      .body-header-title {
+        font-size: 32px;
+        font-weight: 500;
+        color: $text-color;
+      }
+    }
+    .body-header-right {
+      display: flex;
+      align-items: center;
+      .body-header-title-dash {
+        font-size: 12px;
+        font-weight: 400;
+        color: $dash-text-color;
+      }
+      .body-header-title-proj {
+        font-size: 12px;
+        font-weight: 400;
+        color: $proj-text-color;
+      }
+    }
+  }
+  .body-content {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    gap: 25px;
+    .body-project-part {
+      display: flex;
+      height: 100%;
+      width: 100%;
+      flex-direction: column;
+      gap: 25px;
+      .project-header-container {
+        display: flex;
+        height: 44px;
+        width: 100%;
+      }
+    }
+    .body-task-part {
+      display: flex;
+      height: 100%;
+      width: 100%;
+      flex-direction: column;
+      gap: 25px;
+      .task-header-container {
+        display: flex;
+        height: 44px;
+        width: 100%;
+      }
+    }
+  }
+}

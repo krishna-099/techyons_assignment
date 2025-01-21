@@ -1,5 +1,52 @@
 {
-  "login": {
-    
+  "header": {
+    "headerTitle": "TECHYON"
+  },
+  "body": {
+    "bodyTitle": "Projects",
+    "dashboard": "Dashboard /",
+    "projectOverView": "Project Overview"
+  },
+  "projectTable": {
+    "id": "ID",
+    "projectName": "Project Name",
+    "%": "%",
+    "status": "Status",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "owner": "Owner",
+    "tasks": "Tasks"
+  },
+  "taskTable": {
+    "id": "ID",
+    "taskName": "Task Name",
+    "status": "Status",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "owner": "Owner",
+    "priority": "Priority",
+    "team": "Associated Team",
+    "expStartDate": "Exp. Strt Date",
+    "expEndDate": "Exp. End Date",
+    "duration": "Duration",
+    "createdBy": "Created By",
+    "percentTaskCompleted": "% Task Completed",
+    "percentSubTaskCompleted": "% Sub Task Completed",
+    "completionDate": "Completion Date",
+    "workHours": "Work Hours",
+    "deference": "Deference",
+    "billingTypes": "BillingTypes",
+    "filesCount": "Files Count",
+    "lastEditedDate": "Last Edited Date",
+    "requirementId": "Requirement ID",
+    "requirementType": "Requirement Type",
+    "associatedMembers": "Associated Members",
+    "impactedDept": "Impacted Dept.",
+    "subtaskLastEditedDate": "Subtask Last Edited Date",
+    "reviewerDetails": "Reviewer Details"
+  },
+  "taskHeader": {
+    "taskHeaderTitle": "All Tasks",
+    "projectHeaderTitle": "All Projects"
   }
 }

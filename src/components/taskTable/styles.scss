@@ -1,0 +1,23 @@
+$bg-color: #2d446e;
+$table-border-color: #999999;
+.task-table-container {
+  display: flex;
+  box-shadow: 0px 0px 5px 3px #0000001a;
+  max-height: 440px;
+  min-height: 80px;
+  width: 100%;
+  border: 2px solid $table-border-color;
+  border-radius: 8px;
+  flex-direction: row;
+}
+.task-table-header {
+  display: flex;
+  min-height: 40px;
+  flex-direction: column;
+}
+.task-table-content {
+  display: flex;
+  flex-direction: column;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
