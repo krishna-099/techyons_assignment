@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/techyons_assignment/static/css/main.e6c13ad2.css",
-    "main.js": "/techyons_assignment/static/js/main.7aa6df30.js",
+    "main.css": "/techyons_assignment/static/css/main.03eeb371.css",
+    "main.js": "/techyons_assignment/static/js/main.b9c50930.js",
     "index.html": "/techyons_assignment/index.html",
-    "main.e6c13ad2.css.map": "/techyons_assignment/static/css/main.e6c13ad2.css.map",
-    "main.7aa6df30.js.map": "/techyons_assignment/static/js/main.7aa6df30.js.map"
+    "main.03eeb371.css.map": "/techyons_assignment/static/css/main.03eeb371.css.map",
+    "main.b9c50930.js.map": "/techyons_assignment/static/js/main.b9c50930.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.7aa6df30.js"
+    "static/css/main.03eeb371.css",
+    "static/js/main.b9c50930.js"
   ]
 }
